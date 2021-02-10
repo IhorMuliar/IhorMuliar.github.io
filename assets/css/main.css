@@ -250,3 +250,21 @@ body {
 .post-title a {
     color: black;
 }
+
+/* about page */
+
+#index-about-title  {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    /* background-color: #FFFFFF; */
+}
+
+.about-title-color {
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.about-title-color {
+    position: relative;
+    height: 600px;
+}
