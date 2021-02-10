@@ -94,7 +94,7 @@ body {
 
 /*Main Title */
 #index-title {
-    background-color: #5792C5;
+    background-color: #e9f4fc;
     /* background-color: #FFFFFF; */
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 .title-text {
-    color: #FFFFFF;
+    color: black;
     font-size: 25px;
     font-weight: bold;
     margin: 0;
@@ -165,7 +165,7 @@ body {
 
 .single-services {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .single-services a {
