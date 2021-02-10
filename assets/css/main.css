@@ -188,3 +188,50 @@ body {
 .single-services p {
     color: rgb(148, 143, 143);
 }
+
+
+/* portfolio page */
+.post-title a {
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.post-preview p {
+    color: #777777;
+    font-size: 16px;
+}
+
+.portfolio-photo {
+    width: 150px;
+    height: 150px;
+}
+
+.sample-text-area {
+    padding: 80px 0 70px 0;
+}
+
+#index-portfolio-title  {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    /* background-color: #FFFFFF; */
+}
+
+.portfolio-title-color {
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.portfolio-title-color {
+    position: relative;
+    height: 600px;
+}
+
+.post-title a, .post-title a:focus, .post-title a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+.post-title > a {
+    font-size: 24px;
+}
