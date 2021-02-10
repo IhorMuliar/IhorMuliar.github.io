@@ -15,7 +15,6 @@ body {
 }
 
 /* Nav Bar */
-
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.5);
     border-color: rgba(0,0,0,.1);
@@ -46,8 +45,8 @@ body {
 }
 
 
-.navbar {
-    background-color: #FFFFFF!important;
+.bg-light {
+    background-color: #f8f9fa!important;
 }
 
 .navbar-brand {
@@ -123,4 +122,38 @@ body {
 .title-description {
     font-size: 15px;
     font-weight: normal;
+}
+
+/* Main areas */
+.home-content {
+    margin-top: 70px;
+}
+.services-row {
+    margin: 30px 50px 30px 50px;
+}
+
+.single-services {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.single-services a {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single-services a:hover {
+    color: #8490ff;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.single-services a {
+    color: black;
+}
+
+.single-services p {
+    color: rgb(148, 143, 143);
 }
