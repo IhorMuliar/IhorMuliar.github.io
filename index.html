@@ -1,87 +1,92 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-
 <head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Ihor Muliar</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- This is your own CSS style sheet -->
+    <link href="assets/css/main.css" rel="stylesheet">
 
-    <!-- Additional CSS Files -->
-	<link rel='stylesheet' href='assets/css/main.css'>
+    <title>Portfolio Website</title>
 </head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" id="index-navbarbrand" href="#">Ihor Muliar</a>
 
-<body style = "font-family: sans-serif;">
-    <div id="headerwrap">
-        <div class="container">
-            <div class="row centered">
-                <div class="col-lg-11 m-auto">
-                    <h1>Hey, I'm Ihor ;)</h1>
-                    <p style="font-size: 18px;">I am junior <span class = "blue">Data Scientist</span> with 1+ years of experience in project work and freelance jobs.</p>
-                    <button class="btn btn-outline-warning btn-lg">SUBSCRIBE TO MY NEWSLETTER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto mt-2">
+                <li class="nav-item">
+                    <a class="nav-link" id="index-nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="index-nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="index-nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="index-nav-link" href="#">About me</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto mt-2">
+                <li class="nav-item active">
+                    <a target="_blank" id="index-nav-link" class="nav-link" href="https://github.com/IhorMuliar">GitHub</a>
+                </li>
+                <li class="nav-item active">
+                    <a target="_blank" id="index-nav-link" class="nav-link" href="https://www.linkedin.com/in/ihor-muliar/">LinkedIn</a>
+                </li>
+                <li class="nav-item active">
+                    <a target="_blank" id="index-nav-link" class="nav-link" href="https://www.kaggle.com/ihormuliar">Kaggle</a>
+                </li>
+                <div class="nav-item active">
+                    <a href="/assets/files/CV_Junior_Data_Scientist_Ihor_Muliar_2021-конвертирован.pdf" class="genric-btn primary-border circle" target="_blank">Resume</a>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container p-0">
+        <section class="title-color" id="index-title">
+            <div class="title-container">
+                <div class="row title-text">
+                    <div class="col-12 col-sm-9 col-md-7 col-lg-6 additional-margin">
+                        <div class="title-description">
+                            <p>I am a data scientist and hobby programmer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row title-text">
+                    <div class="col-auto additional-margin">
+                        <p>DATA SCIENCE</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="nav">
-        <div class = "container">
-            <button class="btn btn-outline-info btn-lg" onclick="openInNewTab('https://github.com/IhorMuliar');">Github</a></button>
-            <button class="btn btn-outline-info btn-lg" onclick="openInNewTab('https://www.linkedin.com/in/ihor-muliar/');">LinkedIn</a></button>
-            <button class="btn btn-outline-info btn-lg" onclick="openInNewTab('mailto:goga440@gmail.com');"> Email</a></button>
-            <button class="btn btn-outline-info btn-lg">Writings</a></button>
-            <button class="btn btn-outline-info btn-lg">Twitter</a></button>
-            <button class="btn btn-outline-info btn-lg">Track</a></button>
-        </div>  
-    </div>
-
-    <div class='skills'>
-        <div class="container">
-            <h1>ʻʻ</h1>
-            <h2>Skills</h2>
-            <p style="margin-bottom: 30px; font-size: 18px;">Over 1 year of experience using these tools.</p>
-
-            <div class="row mt-5">
-                <div class="col-xl-2">
-                    <img class="rounded" width='130px' height='80px' src="assets/images/Jupyter_logo.svg" alt="jupyter icon">
-                </div>
-                <div class="col-xl-2">
-                    <img class="rounded" width='130px' height='80px' src="assets/images/Pandas_logo.svg" alt="pandas icon">                  
-                </div>
-                <div class="col-xl-2">
-                    <img class="rounded" width='130px' height='80px' src="assets/images/NumPy_logo.svg" alt="numpy icon">
-                </div>
-                <div class="col-xl-2">
-                    <img class="rounded" width='130px' height='80px' src="assets/images/Scikit_learn_logo.svg" alt="scikit_learn icon">
-                </div>
-                <div class="col-xl-2">
-                    <img class="rounded" width='130px' height='80px' src="assets/images/matplotlib.svg" alt="matplotlib icon">
-                </div>
-                <div class="col-xl-2">
-                    <img class="rounded" width='130px' height='80px' src="assets/images/tensorflow-seeklogo.com.svg" alt="tenworflow icon">
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
 
+    <div style="height: 500px;"></div>
 
 
-    <div style="margin-top: 500px;">
+    <footer class="small text-center text-muted">
+        <p class="copyright">Copyright &copy; 2020 | Ihor Muliar</p>
+    </footer>
 
-    </div>
-
-
-
-
+    <!-- Optional JavaScript -->
     <script src="assets/js/script.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
