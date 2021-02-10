@@ -102,6 +102,10 @@ body {
     position: relative;
     z-index: 1;
     display: block;
+}
+
+.title-color {
+    position: relative;
     height: 600px;
 }
 
@@ -123,6 +127,33 @@ body {
     font-size: 15px;
     font-weight: normal;
 }
+
+@media (max-width: 480px) {
+    .title-container {
+      padding: 0 20px 0 20px;
+      margin:0;
+    }
+}
+
+@media (max-width: 780px) {
+    .title-container {
+      padding: 0 10px 0 10px;
+      margin:0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .title-text
+    {
+        font-size: 28px;
+    }
+
+    .title-description
+    {
+        font-size: 18px;
+    }
+}
+
 
 /* Main areas */
 .home-content {
