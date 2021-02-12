@@ -268,3 +268,248 @@ body {
     position: relative;
     height: 600px;
 }
+
+/* about page timeline */
+
+.timeline {
+    margin-top: 80px;
+}
+
+.timeline ul li {
+    background: #f9f9ff;
+    position: relative;
+    margin: 0 auto;
+    width: 2px;
+    padding-bottom: 40px;
+    list-style-type: none;
+  }
+  
+  .timeline ul li:last-child {
+    padding-bottom: 7px;
+  }
+  
+  .timeline ul li:before {
+    content: '';
+    background: #8490ff;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid #eee;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+  .timeline ul li .hidden {
+    opacity: 0;
+  }
+  
+  .timeline ul li .content {
+    background-color: white !important;
+    box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
+    position: relative;
+    top: 7px;
+    width: 360px;
+    padding: 30px;
+  }
+  
+  .timeline ul li .content h4 {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .timeline ul li .content p {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .timeline ul li .content p b {
+    color: #222;
+  }
+  
+  .timeline ul li:nth-child(odd) .content {
+    left: 50px;
+  }
+  
+  .timeline ul li:nth-child(odd) .content:before {
+    left: -38px;
+  }
+  
+  .timeline ul li:nth-child(even) .content {
+    left: calc(-360px - 45px);
+  }
+  
+  .timeline ul li:nth-child(even) .content:before {
+    right: -38px;
+  }
+  
+  /* -------------------------
+     ----- Media Queries -----
+     ------------------------- */
+  @media screen and (max-width: 1020px) {
+    .timeline ul li .content {
+      width: 41vw;
+    }
+    .timeline ul li:nth-child(even) .content {
+      left: calc(-41vw - 45px);
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .timeline ul li {
+      margin-left: 20px;
+    }
+    .timeline ul li .content {
+      width: calc(100vw - 100px);
+    }
+    .timeline ul li .content h2 {
+      text-align: initial;
+    }
+    .timeline ul li:nth-child(even) .content {
+      left: 45px;
+    }
+    .timeline ul li:nth-child(even) .content:before {
+      left: -33px;
+    }
+  }
+  
+
+/* about page skills */
+
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+}
+
+h2.about-header
+{
+    color: #33C6B8;
+}
+
+.about-row
+{
+    margin: 30px 70px 30px 70px;
+}
+
+@media screen and (max-width: 900px) {
+    .about-row{
+        margin: 30px 20px 30px 20px;
+    }
+}
+
+.row-legend
+{
+    margin: 20px 20px 0 20px;
+}
+
+.about-legend
+{
+    display: inline-block;
+    width: 20px;
+}
+
+.skill-cat
+{
+    margin-top: 20px;
+}
+
+.skill-bar
+{
+    position: relative;
+    height: 15px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #CCCCCC, #FFFFFF);
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.skill-spec
+{
+    position: absolute;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(51,198,184, 1), rgba(51,198,184, 0.5));
+    /*background-color: #33C6B8;*/
+    border-radius: 3px;
+    z-index: 10;
+}
+
+.skill-bar .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-image: linear-gradient(to bottom right, #F8F8F8, #FFFFFF);
+    color: #000000;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    top: -38px;
+    right: 55%;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
+  
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 10;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .skill-bar:hover .tooltiptext {
+    visibility: visible;
+  }
+  /* end of the text taken from w3schools*/
+  
+  footer
+  {
+      margin-top: 20px;
+  }
+  
+  .copyright
+  {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .impressum
+  {
+      padding: 0 50px 0 50px;
+  }
+  
+  @media screen and (max-width: 600px) {
+      .impressum
+      {
+          padding: 30px;
+      }
+  }
+  
+  .source
+  {
+      font-style: italic;
+  }
+
+  /* About page skills */
+
+  .single-skill p {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: right;
+  }
+  
+  .sb_progress {
+    height: 14px !important;
+    border-radius: 12px;
+    border: 3px solid #eee;
+  }
+  
+  .sb_bar {
+    height: 8px !important;
+    border-radius: 12px;
+  }
