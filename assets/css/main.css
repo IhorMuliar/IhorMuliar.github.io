@@ -9,6 +9,9 @@ body {
     background-color: #fff;
 }
 
+p {
+    color : rgb(148, 143, 143);
+}
 .container {
     min-height: 100%;
     min-width: 100%;
@@ -271,6 +274,10 @@ body {
 
 /* about page timeline */
 
+.content h5 {
+    text-align: center;
+}
+
 .timeline {
     margin-top: 80px;
 }
@@ -317,6 +324,14 @@ body {
     padding: 30px;
   }
   
+  .timeline b{
+    font-weight: 500;
+  }
+
+  .timeline p{
+    color: rgb(148, 143, 143);
+  }
+
   .timeline ul li .content h4 {
     padding-bottom: 10px;
     text-align: center;
@@ -380,9 +395,6 @@ body {
 
 /* about page skills */
 
-
-
-
 hr {
     display: block;
     height: 1px;
@@ -438,7 +450,7 @@ h2.about-header
 {
     position: absolute;
     height: 100%;
-    background-image: linear-gradient(to bottom right, rgba(51,198,184, 1), rgba(51,198,184, 0.5));
+    background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);;
     /*background-color: #33C6B8;*/
     border-radius: 3px;
     z-index: 10;
@@ -494,6 +506,7 @@ h2.about-header
   {
       font-style: italic;
   }
+
 
 /* About page skills */
 
@@ -552,7 +565,7 @@ h2.about-header
 {
     position: absolute;
     height: 100%;
-    background-image: linear-gradient(to bottom right, rgba(51,198,184, 1), rgba(51,198,184, 0.5));
+    background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);;
     /*background-color: #33C6B8;*/
     border-radius: 3px;
     z-index: 10;
@@ -579,4 +592,8 @@ h2.about-header
 /* Show the tooltip text when you mouse over the tooltip container */
 .skill-bar:hover .tooltiptext {
   visibility: visible;
+}
+
+.skill-cat h5 {
+    font-weight: 600;
 }
