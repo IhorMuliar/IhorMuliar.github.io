@@ -274,6 +274,9 @@ p {
 
 /* about page timeline */
 
+.content span {
+    color: black;
+}
 .content h5 {
     text-align: center;
 }
