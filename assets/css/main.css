@@ -495,21 +495,88 @@ h2.about-header
       font-style: italic;
   }
 
-  /* About page skills */
+/* About page skills */
 
-  .single-skill p {
-    margin-top: 30px;
-    margin-bottom: 5px;
-    text-align: right;
-  }
-  
-  .sb_progress {
-    height: 14px !important;
-    border-radius: 12px;
-    border: 3px solid #eee;
-  }
-  
-  .sb_bar {
-    height: 8px !important;
-    border-radius: 12px;
-  }
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+}
+
+h2.about-header
+{
+    color: #33C6B8;
+}
+
+.about-row
+{
+    margin: 30px 70px 30px 70px;
+}
+
+@media screen and (max-width: 900px) {
+    .about-row{
+        margin: 30px 20px 30px 20px;
+    }
+}
+
+.row-legend
+{
+    margin: 20px 20px 0 20px;
+}
+
+.about-legend
+{
+    display: inline-block;
+    width: 20px;
+}
+
+.skill-cat
+{
+    margin-top: 20px;
+}
+
+.skill-bar
+{
+    position: relative;
+    height: 15px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #CCCCCC, #FFFFFF);
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.skill-spec
+{
+    position: absolute;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(51,198,184, 1), rgba(51,198,184, 0.5));
+    /*background-color: #33C6B8;*/
+    border-radius: 3px;
+    z-index: 10;
+}
+
+/* Tooltip text */
+.skill-bar .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-image: linear-gradient(to bottom right, #F8F8F8, #FFFFFF);
+  color: #000000;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  top: -38px;
+  right: 55%;
+  box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 10;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.skill-bar:hover .tooltiptext {
+  visibility: visible;
+}
