@@ -1,3 +1,9 @@
+.loading--double-spin {
+    border: double 0.5rem;
+    border-color: #5094e3 #5094e3 #ffffff16;
+    animation: spin 1.2s infinite linear;
+}
+  
 body {
     margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
